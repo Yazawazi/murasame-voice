@@ -1,0 +1,249 @@
+{
+    "name": "murasame-voice",
+    "display-name": "Murasame Voice 丛雨语音包",
+    "description": "「吾名丛雨，乃是这“丛雨丸”的管理者……简单来说，也算是“丛雨丸”的灵魂」",
+    "version": "1.0.0",
+    "author": "https://github.com/Yazawazi",
+    "gender": "female",
+    "locale": "jp",
+    "avatar": "images/light.png",
+    "avatar-dark": "images/dark.png",
+    "languages": ["JavaScript", "Python"],
+    "contributes": [
+        {
+            "keywords": ["$time_morning"],
+            "voices": [
+                "audios/mur002_001.mp3",
+                "audios/mur315_023.mp3",
+                "audios/mur302_001.mp3"
+            ]
+        },
+        {
+            "keywords": ["$time_noon"],
+            "voices": [
+                "audios/mur310_058.mp3"
+            ]
+        },
+        {
+            "keywords": ["$time_evening"],
+            "voices": [ 
+                "audios/mur107_015.mp3"
+            ]
+        },
+        {
+            "keywords": ["$time_midnight"],
+            "voices": [
+                "audios/mur305_166.mp3",
+                "audios/mur314_019.mp3",
+                "audios/mur314_213.mp3"
+            ]
+        },
+        {
+            "keywords": ["$time_each_hour"],
+            "voices": [
+                "audios/mur302_119.mp3",
+                "audios/mur313_041.mp3",
+                "audios/mur313_049.mp3",
+                "audios/mur312_027.mp3",
+                "audios/mur312_037.mp3",
+                "audios/mur312_045.mp3"
+            ]
+        },
+        {
+            "keywords": ["document"],
+            "voices": [
+                "audios/mur302_032.mp3"
+            ]
+        },
+        {
+            "keywords": ["style"],
+            "voices": [
+                "audios/mur310_009.mp3",
+                "audios/mur314_028.mp3",
+                "audios/mur315_029.mp3",
+                "audios/mur315_028.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "function",
+                "=>",
+                "func ",
+                "def "
+            ],
+            "voices": [
+                "audios/mur310_094.mp3",
+                "audios/mur310_145.mp3",
+                "audios/mur311_072.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "console.log",
+                "print"
+            ],
+            "voices": [
+                "audios/mur314_047.mp3",
+                "audios/mur310_112.mp3",
+                "audios/mur303_067.mp3",
+                "audios/mur302_008.mp3"
+            ]
+        },
+        {
+            "keywords": ["return"],
+            "voices": [
+                "audios/mur310_234.mp3",
+                "audios/mur311_028.mp3",
+                "audios/mur311_032.mp3",
+                "audios/mur313_024.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "if",
+                "else",
+                "switch",
+                "match",
+                "case",
+                "default"
+            ],                         
+            "voices": [
+                "audios/mur307_049.mp3",
+                "audios/mur309_025.mp3",
+                "audios/mur311_055.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "for",
+                "while"
+            ],
+            "voices": [
+                "audios/mur304_029.mp3",
+                "audios/mur302_039.mp3",
+                "audios/mur306_103.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "await",
+                "async"
+            ],
+            "voices": [
+                "audios/mur303_080.mp3",
+                "audios/mur306_055.mp3",
+                "audios/mur311_023.mp3",
+                "audios/mur312_047.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "catch",
+                "try",
+                "except",
+                "finally"
+            ],
+            "voices": [
+                "audios/mur304_052.mp3",
+                "audios/mur305_180.mp3",
+                "audios/mur307_011.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "import",
+                "include",
+                "require"
+            ],
+            "voices": [
+                "audios/mur304_009.mp3",
+                "audios/mur311_019.mp3",
+                "audios/mur311_020.mp3"
+            ]
+        },
+        {
+            "keywords": ["break"],
+            "voices": [
+                "audios/mur313_037.mp3",
+                "audios/mur312_031.mp3",
+                "audios/mur311_058.mp3"
+            ]
+        },
+        {
+            "keywords": ["continue"],
+            "voices": [
+                "audios/mur301_026.mp3",
+                "audios/mur316_021.mp3",
+                "audios/mur313_066.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "and",
+                "or",
+                "not",
+                "||",
+                "&&",
+                "!"
+            ],
+            "voices": [
+                "audios/mur313_093.mp3",
+                "audios/mur312_012.mp3",
+                "audios/mur312_092.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "this",
+                "self"
+            ],
+            "voices": [
+                "audios/mur302_097.mp3",
+                "audios/mur302_145.mp3",
+                "audios/mur307_066.mp3",
+                "audios/mur309_030.mp3",
+                "audios/mur310_028.mp3"
+            ]
+        },
+        {
+            "keywords": ["__main__"],
+            "voices": [
+                "audios/mur001_005.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "__init__",
+                "constructor"
+            ],
+            "voices": [
+                "audios/mur306_020.mp3",
+                "audios/mur314_045.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "True",
+                "true"
+            ],
+            "voices": [
+                "audios/mur314_016.mp3"
+            ]
+        },
+        {
+            "keywords": [
+                "False",
+                "false"
+            ],
+            "voices": [
+                "audios/mur306_089.mp3"
+            ]
+        },
+        {
+            "keywords": "class",
+            "voices": [
+                "audios/mur001_030.mp3"
+            ]
+        }
+    ]
+}
